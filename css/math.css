@@ -1,0 +1,64 @@
+.thrm,
+.prp,
+.conj,
+.lem,
+.defn {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.thrm:before {
+    content: "Theorem";
+    font-weight: bold;
+}
+
+.prp:before {
+    content: "Proposition";
+    font-weight: bold;
+}
+
+.conj:before {
+    content: "Conjecture";
+    font-weight: bold;
+}
+
+.lem:before {
+    content: "Lemma";
+    font-weight: bold;
+}
+
+.defn:before {
+    content: "Definition";
+    font-weight: bold;
+}
+
+.ref {
+    display: inline;
+    font-weight: bold;
+}
+
+.ref:before {
+    content: "(";
+    font-weight: bold;
+}
+
+.ref:after {
+    content: "):";
+    font-weight: bold;
+}
+
+.proof {
+    display: block;
+    margin: 1em 0;
+}
+
+.proof:before {
+    content: "Proof:";
+    font-weight: bold;
+}
+
+.proof:after {
+    content: " ∎";
+    font-size: 150%;
+}
