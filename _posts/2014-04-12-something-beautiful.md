@@ -28,17 +28,17 @@ $$ \sum_{x \in V(G)}{ d(x)^2 } \leq ne(G).$$
 
 Now, by the Handshaking Lemma, we know that
 
-$$ (2e(E))^2 = \bigg( \sum_{x \in V(G)}{ d(x) } \bigg)^2.$$
+$$ (2e(G))^2 = \bigg( \sum_{x \in V(G)}{ d(x) } \bigg)^2.$$
 
 Applying Cauchy's inequality along with our results above yields
 
 $$\begin{align*}
-    (2e(E))^2 &= \bigg( \sum_{x \in V(G)}{ d(x) } \bigg)^2 \\
+    (2e(G))^2 &= \bigg( \sum_{x \in V(G)}{ d(x) } \bigg)^2 \\
              &\leq n\sum_{x \in V(G)}{ d(x)^2 } \\
-             &\leq n^2e(E).
+             &\leq n^2e(G).
 \end{align*}$$
 
-It follows that $e(E) \leq n^2/4$.
+It follows that $e(G) \leq n^2/4$.
 </div>
 </div>
 
