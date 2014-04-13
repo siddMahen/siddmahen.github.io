@@ -16,11 +16,14 @@ body {
   background-color: #FFF;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
+  font-weight: 300;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 115%;
+  font-weight: 300;
+}
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
@@ -58,15 +61,15 @@ a:visited { color: #a0a; }
 .site {
   font-size: 115%;
   text-align: justify;
-  max-width: 40em;
+  max-width: 36em;
   margin: 3em auto 2em;
   padding: 0 1em;
   line-height: 1.5em;
 }
 
 .header a {
-  font-weight: bold;
   text-decoration: none;
+  font-weight: 300;
 }
 
 .title {
