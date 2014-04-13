@@ -10,42 +10,42 @@
 
 .thrm:before {
     content: "Theorem";
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .prp:before {
     content: "Proposition";
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .conj:before {
     content: "Conjecture";
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .lem:before {
     content: "Lemma";
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .defn:before {
     content: "Definition";
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .ref {
     display: inline;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .ref:before {
     content: "(";
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .ref:after {
     content: "):";
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .proof {
@@ -55,7 +55,7 @@
 
 .proof:before {
     content: "Proof:";
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .proof:after {
